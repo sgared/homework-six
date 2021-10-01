@@ -1,0 +1,92 @@
+.tour-wrapper {
+  width: 978px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.tour-hero {
+  width: 981px;
+  height: 413px;
+  margin: 45px auto;
+  position: relative;
+  .tours-package {
+    margin-left: 30px;
+    margin-top: 18px;
+    font-size: 80px;
+    color: white;
+  }
+  .starting-price {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 20px;
+    color: white;
+  }
+}
+.tour-image {
+  width: 298px;
+  height: 347px;
+  margin-bottom: 55px;
+}
+.note-holder {
+  width: 981px;
+  margin: 0 auto;
+  h2 {
+    margin-bottom: 22px;
+    font-size: 60px;
+  }
+  p {
+    margin-bottom: 54px;
+    font-size: 15px;
+  }
+}
+.book-now {
+  width: 133px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: weight;
+  background-color: #79addc;
+  border-radius: 20px;
+
+  color: white;
+  margin: 85px auto 100px auto;
+  padding: 14px;
+}
+@media only screen and (max-width: 700px) {
+  .tour-hero {
+    width: 700px;
+    .starting-price {
+      position: absolute;
+      left: 15px;
+      bottom: 0;
+      font-size: 20px;
+      color: white;
+    }
+  }
+}
+@media only screen and (max-width: 540px) {
+  .tour-hero {
+    width: 540px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .tour-wrapper {
+    width: 670px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .tour-wrapper {
+    width: 298px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .note-holder {
+    width: 678px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .note-holder {
+    width: 298px;
+  }
+}
